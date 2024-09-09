@@ -1,0 +1,150 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+body {
+    background-color: #E2E0E1;
+}
+
+.login-container{
+
+    display: flex;
+    position: relative;
+    height: 525px;
+    width: 850px;
+    background-color: #CC486F;
+    margin:auto;
+    margin-top:7%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 3px #a8a7a7;
+      
+}
+
+.left-side{
+    position: absolute;
+    height: 100%;
+    
+}
+.left-side img{
+   
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.right-side{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    right:0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.login-area{
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.3); /* Black background with 30% opacity */
+    
+    margin: auto;
+    padding:15px;
+    margin-top: 30px;
+}
+
+.sign-in{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+.input-group-addon.mw,.form-control.mw {
+    border-color: #FFF;
+
+}
+
+.input-group-addon.mw{
+    color: #000;
+}
+
+.form-control.mw{
+   background-color: rgba(0,0,0,0);
+   color:#FFF;
+   
+}
+
+.form-control{
+    font-size: 12px;
+}
+
+.btn-mw{
+    background-color: #CC486F;
+    color: #FFF;
+    font-size: 12px;
+    border-color:#b74464;
+}
+
+.btn-mw:hover{
+    background-color: #b74464;
+    color: #FFF;
+    font-size: 12px;
+    border-color:#b74464;
+}
+
+.forgot-pass, .forgot-pass:hover{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.forgot-pass:hover{
+    color:#323232;
+}
+
+
+.box-mw {
+    border-top-color: #cc486f;
+  }
+
+.box-mw.header {
+    background-color: #eedae0;
+  }
+
+
+.partner-logo{
+  
+    width: 100%; /* Your element needs a fixed width */
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffdbe6;
+     padding: 15px;
+    
+    margin-top: 30px;
+    
+}
+
+
+
+.logo-unicef{
+    width: 98px;
+}
+
+.logo-bgmea{
+    width: 84px;
+    height: auto;
+}
+
+.logo-bkmea{
+    width: 50px;
+    height: auto;
+}
+
+/* .partner-logo:after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+} */
+
+

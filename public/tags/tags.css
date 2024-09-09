@@ -1,0 +1,32 @@
+#tags{
+    position: absolute;
+    width:300px;
+
+    max-height: 400px;
+    height: auto;
+    background: #F1f1f1;
+    border: solid 1px #DDD;
+    overflow-y: auto;
+    z-index: 10010;
+    display: none;
+
+}
+
+#tags ul{
+    margin: 0px;
+    list-style: none;
+    padding: 0px;
+}
+
+#tags ul li{
+    padding: 10px 5px;
+    font-family: Arial;
+    font-size: 1em;
+    border-bottom:solid 1px #FFF;
+    cursor: pointer;
+}
+
+#tags ul li:hover{
+    background-color: #FFF;
+    cursor: pointer;
+}

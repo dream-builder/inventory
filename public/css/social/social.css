@@ -1,0 +1,77 @@
+body{
+    background-color: #f0f2f5;
+
+}
+.social_header{
+    position: fixed;
+    overflow: auto;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+}
+
+.social-title {
+    color: #0572e6;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.action-bar{
+    border-bottom: solid 2px #959595;
+}
+
+.action-bar .action-icon{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.action-icon{
+    width: auto;
+    text-align: center;
+}
+
+.action-icon i{
+    font-size: 1.5em;
+    color: #999;
+}
+
+.action-icon.active, .action-icon:hover  {
+    border-bottom: solid 3px #0572E6;
+    color: #0572e6;
+}
+
+.action-icon:hover{
+    background-color: #F4F4F4;
+}
+
+.action-icon:hover i, .action-icon.active i {
+    color: #0572e6;
+}
+
+.social-container {
+    height: 200%;
+}
+
+.direct-chat-msg{
+    background-color: #FFF;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.direct-chat-text{
+    padding: 15px 0px;
+}
+
+.action-button {
+    background-color: #F9F9F9;
+    font-size: .9em;
+    padding: 10px;
+    border-top: solid 1px #DDD;
+    border-bottom: solid 1px #DDD;
+    margin-bottom: 15px;
+}

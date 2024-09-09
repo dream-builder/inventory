@@ -1,0 +1,16 @@
+{
+  "form_name": "Facility Registration Form",
+  "developer": "shahed",
+  "create_date": "2021-03-31",
+  "method_type": "GET",
+  "submit_button" : "Yes",
+  "submit_button_title": "Save",
+
+  "elements": [
+    {
+      "name": "zillaid",
+      "title": "Zilla ID"
+    }
+  ]
+
+}
